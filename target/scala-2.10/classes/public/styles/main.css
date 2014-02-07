@@ -1,0 +1,46 @@
+/* line 2, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.button .expand {
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 100%; }
+
+/* line 9, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.strike {
+  text-decoration: line-through;
+  font-style: italic; }
+
+/* line 14, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.waiter {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+  opacity: 0.8;
+  text-align: center;
+  padding-top: 20%; }
+  /* line 26, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+  .waiter .in {
+    display: none; }
+  /* line 30, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+  .waiter .out {
+    display: none; }
+
+/* line 35, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.waiter.show {
+  left: 0%; }
+
+/* line 40, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.waiter.login .in {
+  display: inline; }
+
+/* line 46, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.waiter.logout .out {
+  display: inline; }
+
+/* line 51, /home/oli/Development/Play/todolist/app/assets/styles/main.scss */
+.transition {
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1); }

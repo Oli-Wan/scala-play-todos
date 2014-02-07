@@ -1,0 +1,82 @@
+@(title: String, scripts: Html = Html(""))(content: Html)(implicit session: play.api.mvc.Session)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+
+            <!-- foundation -->
+        <link rel="stylesheet" href="@routes.Assets.at("styles/normalize.css")">
+        <link rel="stylesheet" href="@routes.Assets.at("styles/foundation.css")">
+
+        <link rel="stylesheet" href="@routes.Assets.at("styles/main.css")">
+    </head>
+    <body>
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1>
+                        <a href="/">Scala todo app</a>
+                    </h1>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="right">
+                    @if(session.get("user") == None) {
+                        <li class="has-form">
+                            <a  id="signin" class="button">Sign in with Mozilla Persona</a>
+                        </li>
+                    }
+                    @if(session.get("user") != None) {
+                        <li>
+                            <a href="/tasks/index">
+                                Logged in as @session.get("user")
+                            </a>
+                        </li>
+                        <li class="has-form">
+                            <a class="button" id="signout">Sign out</a>
+                        </li>
+                    }
+                </ul>
+            </section>
+        </nav>
+
+        @content
+
+        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/foundation/foundation.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/foundation/foundation.topbar.js")" type="text/javascript"></script>
+
+
+        <script src="@routes.Assets.at("javascripts/angular.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/angular-resource.js")" type="text/javascript"></script>
+
+        @scripts
+
+        <script>
+        $(document).foundation();
+        </script>
+
+        <script src="https://login.persona.org/include.js"></script>
+        <script>
+            var userFromSession =  '@session.get("user")';
+            var personaUser = userFromSession.length > 0 ? userFromSession:null;
+        </script>
+        <script src="@routes.Assets.at("javascripts/persona.js")" type="text/javascript"></script>
+
+        <div class="waiter transition">
+            <h1>Please wait while we are login you
+                <span class="in">
+                    in <br/> Just follow the instruction on the popup window.
+                </span>
+                <span class="out">out .</span></h1>
+        </div>
+    </body>
+</html>

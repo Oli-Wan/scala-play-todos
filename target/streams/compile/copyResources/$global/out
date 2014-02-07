@@ -1,0 +1,21 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/javascripts/controller/TodoCtrl.min.js,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/javascripts/controller/TodoCtrl.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/javascripts/app.min.js,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/javascripts/app.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/javascripts/persona.js,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/javascripts/persona.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/javascripts/controller/TodoCtrl.js,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/javascripts/controller/TodoCtrl.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/javascripts/persona.min.js,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/javascripts/persona.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/javascripts/app.js,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/javascripts/app.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/styles/foundation.css,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/styles/foundation.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/styles/main.css,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/styles/main.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/styles/main.min.css,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/styles/main.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/styles/foundation.min.css,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/styles/foundation.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/styles/normalize.css,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/styles/normalize.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/target/scala-2.10/resource_managed/main/public/styles/normalize.min.css,/home/oli/Development/Play/todolist/target/scala-2.10/classes/public/styles/normalize.min.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/application.test.conf,/home/oli/Development/Play/todolist/target/scala-2.10/classes/application.test.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/application.dev.conf,/home/oli/Development/Play/todolist/target/scala-2.10/classes/application.dev.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/application.conf,/home/oli/Development/Play/todolist/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/openshift.conf,/home/oli/Development/Play/todolist/target/scala-2.10/classes/openshift.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/evolutions,/home/oli/Development/Play/todolist/target/scala-2.10/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/routes,/home/oli/Development/Play/todolist/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/evolutions/default,/home/oli/Development/Play/todolist/target/scala-2.10/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/oli/Development/Play/todolist/conf/evolutions/default/1.sql,/home/oli/Development/Play/todolist/target/scala-2.10/classes/evolutions/default/1.sql)[0m

@@ -1,0 +1,39 @@
+[0m[[0mdebug[0m] [0mFramework implementation 'org.scalatest.tools.Framework' not present.[0m
+[0m[[0minfo[0m] [0m[32mUnitSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mPersonaSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mPersona controller[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create a session with user email[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return forbidden with reason if user not verified[0m[0m
+[0m[[0minfo[0m] [0m[32m- should clear session on logout[0m[0m
+[0m[[0minfo[0m] [0m[32mPersonaServiceSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mPersonaService[0m[0m
+[0m[[0minfo[0m] [0m[32m- should get email if assertion is valid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return the failure type if assertion is invalid[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not crash if the verifier doesn't respond[0m[0m
+[0m[[0minfo[0m] [0m[32mTaskSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mTasksController[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for index action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for tasks action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for new task action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for delete task action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for update task action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should serve the tasks angularjs app[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return user's tasks[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create task[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not create task if empty request[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not create task if invalid json request[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not create task if request of invalid type[0m[0m
+[0m[[0minfo[0m] [0m[32m- should delete task of given id[0m[0m
+[0m[[0minfo[0m] [0m[32m- should update task of given id with given content[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not update if invalid json[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not update if empty request[0m[0m
+[0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaTest not available.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 21, Failed 0, Errors 0, Passed 21[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	utils.PersonaServiceSpec[0m
+[0m[[0mdebug[0m] [0m	controllers.TaskSpec[0m
+[0m[[0mdebug[0m] [0m	controllers.PersonaSpec[0m
+[0m[[0mdebug[0m] [0m	tests.UnitSpec[0m

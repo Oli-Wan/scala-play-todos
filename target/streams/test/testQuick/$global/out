@@ -1,0 +1,50 @@
+[0m[[0mdebug[0m] [0mFramework implementation 'org.scalatest.tools.Framework' not present.[0m
+[0m[[0minfo[0m] [0m[32mTaskSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mTasksController[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for index action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for tasks action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for new task action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for delete task action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require logged on user for update task action[0m[0m
+[0m[[0minfo[0m] [0m[32m- should serve the tasks angularjs app[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return user's tasks[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create task[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not create task if empty request[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not create task if invalid json request[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not create task if request of invalid type[0m[0m
+[0m[[0minfo[0m] [0m[32m- should delete task of given id[0m[0m
+[0m[[0minfo[0m] [0m[32m- should update task of given id with given content[0m[0m
+[0m[[0minfo[0m] [0m[31m- should not update if invalid json *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.specs2.execute.ErrorException: JsResultException(errors:List((,List(ValidationError(error.expected.jsstring,WrappedArray())))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$$anonfun$2.apply(JsValue.scala:64)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$$anonfun$2.apply(JsValue.scala:64)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsResult$class.fold(JsResult.scala:71)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsError.fold(JsResult.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$class.as(JsValue.scala:62)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsUndefined.as(JsValue.scala:95)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at controllers.Tasks$TaskFormat$.reads(Tasks.scala:16)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$class.asOpt(JsValue.scala:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsObject.asOpt(JsValue.scala:164)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at controllers.Tasks$$anonfun$updateTask$1.apply(Tasks.scala:61)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m  Cause: play.api.libs.json.JsResultException: JsResultException(errors:List((,List(ValidationError(error.expected.jsstring,WrappedArray())))))[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$$anonfun$2.apply(JsValue.scala:64)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$$anonfun$2.apply(JsValue.scala:64)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsResult$class.fold(JsResult.scala:71)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsError.fold(JsResult.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$class.as(JsValue.scala:62)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsUndefined.as(JsValue.scala:95)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at controllers.Tasks$TaskFormat$.reads(Tasks.scala:16)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsValue$class.asOpt(JsValue.scala:51)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at play.api.libs.json.JsObject.asOpt(JsValue.scala:164)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at controllers.Tasks$$anonfun$updateTask$1.apply(Tasks.scala:61)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- should not update if empty request[0m[0m
+[0m[[0mdebug[0m] [0mFramework implementation 'org.specs2.runner.Specs2Framework' not present.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaTest not available.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 15, Failed 1, Errors 0, Passed 14[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	controllers.TaskSpec[0m
+[0m[[31merror[0m] [0m(test:[31mtestQuick[0m) sbt.TestsFailedException: Tests unsuccessful[0m
