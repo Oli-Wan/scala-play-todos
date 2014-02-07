@@ -1,4 +1,4 @@
-This is your new Play application
+play-scala-todos
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+Simple todo app to discover Scala and Play! Framework. Also features some AngularJS and uses Mozilla Persona as identity provider
